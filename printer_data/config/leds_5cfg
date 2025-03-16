@@ -43,7 +43,7 @@ frame_rate:                         24
 layers:
     static         0  0     top        (1.0,  1.0, 1.0)
 
-[led_effect standbyyellow_tool0]
+[led_effect standbyyellow_tool5]
 leds:
     neopixel:leds_tool0 (1)
 autostart:                          false
@@ -51,7 +51,7 @@ frame_rate:                         24
 layers:
     static         0  0     top        (1.0,  0.0, 0.0)
 
-[led_effect standbybreathing_tool0]
+[led_effect standbybreathing_tool5]
 leds:
     neopixel:leds_tool0 (2-3)
 autostart:                          false
@@ -67,7 +67,7 @@ frame_rate:                         24
 layers:
     static         0  0     top        (1.0,  1.0, 1.0)
 
-[led_effect nozzle_heating_tool0]
+[led_effect nozzle_heating_tool5]
 leds:
     neopixel:leds_tool0 (2-3)
 autostart:                          false
@@ -75,7 +75,7 @@ frame_rate:                         24
 layers:
      breathing  3 1 top (1, 0.18, 0)
 
-[led_effect nozzle_cooling_tool0]
+[led_effect nozzle_cooling_tool5]
 leds:
     neopixel:leds_tool0 (2-3)
 autostart:                          false
@@ -83,7 +83,7 @@ frame_rate:                         24
 layers:
      breathing  3 1 top (0, 0, 1)
 
-[led_effect nozzle_homing_tool0]
+[led_effect nozzle_homing_tool5]
 autostart:              false
 frame_rate:             24
 leds:
@@ -91,7 +91,7 @@ leds:
 layers:
         breathing  3  1 top (0.0, 0.8, 1.0)
 
-[led_effect nozzle_standby_tool0]
+[led_effect nozzle_standby_tool5]
 autostart:              false
 frame_rate:             24
 leds:
@@ -99,7 +99,7 @@ leds:
 layers:
         breathing  3 1 top (0.01, 0.01, 0.01)
 
-[led_effect nozzle_part_ready_tool0]
+[led_effect nozzle_part_ready_tool5]
 autostart:              false
 frame_rate:             24
 leds:
@@ -107,7 +107,7 @@ leds:
 layers:
         breathing  3 1 top (0.0, 1.0, 0.0)
 
-[led_effect nozzle_busy_tool0]
+[led_effect nozzle_busy_tool5]
 autostart:              false
 frame_rate:             24
 leds:
